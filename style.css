@@ -1,0 +1,143 @@
+body {
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Imagem de fundo para dispositivos móveis */
+@media (max-width: 767px) {
+    body {
+        background-image: url(FAROL.jpg);     
+        background-repeat: no-repeat;
+        background-size: 130% 100%;
+        background-position: center center;
+        /* outras propriedades de estilo para a imagem de fundo móvel */
+    }
+    h1, h2{
+        font-size: 16px;
+    }
+    p{
+        font-size: 14px;
+        text-align: justify;
+    
+    }
+    .navg li a{
+        font-size: 12px;
+    }
+    .colun{
+        display: flex;
+    }
+    .colun1 {
+        margin-left: -10px;
+        margin-right: -10px;
+        border: 1px solid;
+        padding: 4px;
+    }
+    .colun2 {
+        margin-right: -10px;
+        margin-left: 15px;
+        border: 1px solid;
+        padding: 4px;
+    }
+}
+
+/* Imagem de fundo para dispositivos de desktop */
+@media (min-width: 768px) {
+    body {
+        background-image: url(FAROL.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center center;
+        /* outras propriedades de estilo para a imagem de fundo de desktop */
+    }
+
+    .navg li a{
+        font-size: 16px;
+    }
+
+    h1, .p1 {
+        text-align: center;
+    }
+    
+    .const {
+        margin-top: 1100px;
+        text-align: justify;
+    }
+    p {
+        text-align: justify;
+    }
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    margin-top: -10px;
+}
+
+li, a, button{
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.navg {
+    list-style: none;
+}
+
+.navg li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navg li a{
+    transition: all 0.3s ease 0s;
+    text-shadow: 2px 2px 4px rgb(255, 196, 0);
+}
+
+.navg li a :hover {
+    color: cadetblue;
+}
+
+button{
+    padding: 5px 20px;
+    background-color: rgb(112, 133, 71);
+    color: #000000;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    font-size: 15px;
+}
+
+/* inicio do corpo */
+
+hr{
+    margin-top: -20px;
+}
+main {
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main p {
+    text-shadow: 0px 0px 3px #000000;
+}
+
+a .btn-topo {
+    background-color:transparent;
+    color: #ffffff;
+    border: 1px solid#ffffff;
+    margin-left: 25px;
+    position: relative;
+    margin-bottom: 20px;
+}
